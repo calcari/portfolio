@@ -53,7 +53,7 @@ export function ContactForm() {
       const result = await sendContact(value)
       if (!result.ok) {
         toast.error(result.error)
-        throw new Error(result.error)
+        return
       }
       setSuccessCount((count) => count + 1)
       form.reset()

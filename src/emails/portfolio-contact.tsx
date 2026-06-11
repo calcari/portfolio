@@ -5,6 +5,7 @@ import {
   Heading,
   Hr,
   Html,
+  Link,
   Preview,
   Section,
   Text,
@@ -65,7 +66,11 @@ export function PortfolioContactEmail({
             ) : null}
 
             <Text style={label}>Email</Text>
-            <Text style={value}>{email}</Text>
+            <Text style={value}>
+              <Link href={`mailto:${email}`} style={{ color: "#171717" }}>
+                {email}
+              </Link>
+            </Text>
 
             {telephone ? (
               <>
