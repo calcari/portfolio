@@ -84,9 +84,13 @@ Cette réalisation m’a surtout appris qu’il faut industrialiser sans surindu
 
 Il faut donc savoir faire des compromis. Par exemple, je n’ai pas ajouté un environnement de test supplémentaire au pipeline : les tests s’exécutent directement sur l’environnement de staging. Pour une équipe plus grande ou un produit avec des enjeux plus critiques, ce choix serait discutable. Dans le contexte de Pedagome, il reste proportionné : les flux critiques sont testés, les mises en production sont planifiées avec prudence, et le niveau de complexité reste adapté aux moyens disponibles.
 
+## Expériences rattachées à cette réalisation
+
+- [Pedagome, alternance](/parcours/pedagome-iscod)
+
 ## Compétences rattachées à cette réalisation
 
-- [Industrialisation de l’environnement de développement](../competences/industrialisation-environnement-developpement.md)
-- [Qualité du code, lisibilité et architecture](../competences/qualite-code-architecture.md)
-- [Développement web full-stack](../competences/developpement-web-full-stack.md)
-- [Cadrage fonctionnel, compréhension métier et modélisation des données](../competences/analyse-et-description-des-besoins.md)
+- [Industrialisation de l’environnement de développement](/competences/industrialisation-environnement-developpement)
+- [Qualité du code, lisibilité et architecture](/competences/qualite-code-architecture)
+- [Développement web full-stack](/competences/developpement-web-full-stack)
+- [Cadrage fonctionnel, compréhension métier et modélisation des données](/competences/analyse-et-description-des-besoins)

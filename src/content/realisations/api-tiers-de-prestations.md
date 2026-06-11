@@ -70,10 +70,16 @@ Ce chantier m’a donné une première expérience concrète d’intégration av
 
 L’absence de webhook ou d’endpoint de suivi clair a aussi montré qu’une API officielle ne couvre pas toujours exactement les besoins opérationnels d’une entreprise. J’ai dû tester le comportement réel du service sur l’environnement de staging et trouver une solution compatible avec le cadre imposé.
 
+## Expériences rattachées à cette réalisation
+
+- [Pedagome, alternance](/parcours/pedagome-iscod)
+- [Pedagome, développeur autodidacte](/parcours/pedagome-autodidacte)
+- [Pedagome, gestation du projet](/parcours/escola-gestation)
+
 ## Compétences rattachées à cette réalisation
 
-- [Développement web full-stack](http://../competences/developpement-web-full-stack.md)
-- [Cadrage fonctionnel, compréhension métier et modélisation des données](http://../competences/analyse-et-description-des-besoins.md)
-- [Comptabilité et paie](http://../competences/comptabilite-paie.md)
-- [Qualité du code, lisibilité et architecture](http://../competences/qualite-code-architecture.md)
+- [Développement web full-stack](/competences/developpement-web-full-stack)
+- [Cadrage fonctionnel, compréhension métier et modélisation des données](/competences/analyse-et-description-des-besoins)
+- [Comptabilité et paie](/competences/comptabilite-paie)
+- [Qualité du code, lisibilité et architecture](/competences/qualite-code-architecture)
 

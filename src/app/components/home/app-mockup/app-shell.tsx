@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { PanelLeft } from "lucide-react"
+import { Menu } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import {
@@ -32,7 +32,7 @@ export function AppShell({
     <div className={cn("fixed top-6 right-5 bottom-6 left-5 lg:inset-8 z-50 flex flex-col overflow-hidden rounded-xl border bg-card shadow-xl", fullScreen && "inset-0! rounded-none!")}>
       <SidebarProvider
         style={{ "--sidebar-width": "19.5rem" } as React.CSSProperties}
-        className="flex flex-col flex-1 min-h-0"
+        className="relative flex flex-col flex-1 min-h-0"
       >
         <div className="flex h-11 shrink-0 items-center gap-3 border-b px-4">
           <div className="flex gap-2">
@@ -52,15 +52,6 @@ export function AppShell({
               className="block size-3 rounded-full bg-[#28c840] opacity-80 hover:opacity-100 cursor-pointer"
             />
           </div>
-          <Button
-            variant="ghost"
-            size="icon-sm"
-            className="md:hidden"
-            onClick={() => setMobileOpen(true)}
-            aria-label="Ouvrir la navigation"
-          >
-            <PanelLeft />
-          </Button>
           <div className="min-w-0 flex-1">
             <AppBreadcrumb />
           </div>
@@ -74,6 +65,18 @@ export function AppShell({
           </main>
         </div>
 
+        {!mobileOpen && (
+          <Button
+            variant="default"
+            size="icon"
+            className="absolute bottom-4 right-4 z-20 size-12 rounded-full shadow-md md:hidden"
+            onClick={() => setMobileOpen(true)}
+            aria-label="Ouvrir la navigation"
+          >
+            <Menu />
+          </Button>
+        )}
+
         <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
           <SheetContent side="left" className="w-72 p-0">
             <SheetHeader className="sr-only">
@@ -83,7 +86,6 @@ export function AppShell({
             <AppSidebar
               className="w-full border-0"
               onNavigate={() => setMobileOpen(false)}
-              onOpenHero={onOpenHero}
             />
           </SheetContent>
         </Sheet>

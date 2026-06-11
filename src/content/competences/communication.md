@@ -16,7 +16,7 @@ Lors de l’intégration de l’avance immédiate de crédit d’impôt, l’URS
 
 J’ai collaboré avec la graphiste de l’entreprise pour produire une plaquette que les familles pouvaient lire sans connaître le fonctionnement de l’URSSAF. Mon rôle était de transformer le parcours fonctionnel en explications simples, sans approximation sur un sujet réglementé. Ce support faisait partie des éléments demandés avant l’accès à la production.
 
-Lien vers la réalisation : [API Tiers de prestations](../realisations/✅ API Tiers de prestations.md)
+Lien vers la réalisation : [API Tiers de prestations](/realisations/api-tiers-de-prestations)
 
 ### Anecdote 2 : Faire accepter une correction dans un projet open source
 
@@ -24,13 +24,13 @@ Dans mes contributions open source, proposer du code ne suffit pas. Il ne serait
 
 Mes contributions ont pu être discutées puis acceptées parce que le problème était lisible pour des personnes extérieures à mon contexte.
 
-Lien vers la réalisation : [Contribuer à des projets open source par l’investigation de bugs complexes](../realisations/✅ contributions-open-source.md)
+Lien vers la réalisation : [Contributions open source](/realisations/contributions-open-source)
 
 ### Anecdote 3 : Accompagner un profil moins expérimenté sur une base de code existante
 
 J’ai développé cette compétence en accompagnant un profil moins expérimenté sur une base de code existante. Je devais lui expliquer comment le projet était organisé, pourquoi certaines conventions existaient, et comment éviter des erreurs d’intégration. Cela m’a obligé à rendre plus explicites des raisonnements que je gardais parfois pour moi. L’accompagnement est devenu plus fluide et moins dépendant d’aller-retours permanents. Outre le gain de temps, ça m'a permi de faire évoluer ma posture managériale.
 
-Lien vers la réalisation : [Portail tuteur mobile-first](../realisations/✅ Portail tuteur mobile-first.md)
+Lien vers la réalisation : [Portail tuteur mobile-first](/realisations/portail-tuteur-mobile-first)
 
 ## Mon autocritique
 
@@ -48,6 +48,6 @@ Je veux donc travailler mon rythme oral, la structure de mes interventions et la
 
 ## Réalisations rattachées à cette compétence
 
-- [API Tiers de prestations](../realisations/✅ API Tiers de prestations.md)
-- [Portail tuteur mobile-first](../realisations/✅ Portail tuteur mobile-first.md)
-- [Contribuer à des projets open source par l’investigation de bugs complexes](../realisations/✅ contributions-open-source.md)
+- [API Tiers de prestations](/realisations/api-tiers-de-prestations)
+- [Portail tuteur mobile-first](/realisations/portail-tuteur-mobile-first)
+- [Contributions open source](/realisations/contributions-open-source)

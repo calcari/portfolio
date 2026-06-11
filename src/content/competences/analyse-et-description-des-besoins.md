@@ -28,7 +28,7 @@ La bonne réponse consiste parfois à ne pas développer la demande telle quelle
 
 ## Mon autocritique
 
-Le cadrage dépend beaucoup de la vision d’ensemble que l’on a du sujet. Mon parcours m’a aidé sur ce point : la formation en [mesures physiques](../experiences/2.%20iut-mesure-pysiques.md) m’a habitué à observer un système avant d’intervenir, et l’expérience [entrepreneuriale chez Pedagome](../experiences/3.%20escola-gestation.md) m’a donné une lecture plus transversale du fonctionnement d’une activité.
+Le cadrage dépend beaucoup de la vision d’ensemble que l’on a du sujet. Mon parcours m’a aidé sur ce point : la formation en [mesures physiques](/parcours/iut-mesure-pysiques) m’a habitué à observer un système avant d’intervenir, et l’expérience [entrepreneuriale chez Pedagome](/parcours/escola-gestation) m’a donné une lecture plus transversale du fonctionnement d’une activité.
 
 Mon point de vigilance concerne la manière de solliciter les parties prenantes. Tout le monde n’a pas le temps, le vocabulaire ou le recul nécessaire pour formaliser un besoin complet. Si je pose trop de questions ouvertes, je peux obtenir des réponses incomplètes, ou créer de la fatigue autour du sujet. Je dois donc davantage préparer les échanges en amont : revenir avec deux ou trois options viables, expliciter les conséquences de chacune, puis faire trancher les vrais arbitrages.
 
@@ -40,6 +40,6 @@ Je veux surtout progresser dans l’animation des ateliers de cadrage : mieux pr
 
 ## Réalisations rattachées à cette compétence
 
-- [API Tiers de prestations](../realisations/✅ API Tiers de prestations.md)
-- [Portail tuteur mobile-first](../realisations/✅ Portail tuteur mobile-first.md)
+- [API Tiers de prestations](/realisations/api-tiers-de-prestations)
+- [Portail tuteur mobile-first](/realisations/portail-tuteur-mobile-first)
 

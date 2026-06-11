@@ -124,7 +124,7 @@ export const parcoursTimeline: TimelineItem[] = [
   },
   {
     slug: "fetch",
-    title: "Fetch, coursier indépendant",
+    title: "Coursier indépendant",
     structure: "Fetch, Metz",
     logo: "/images/experiences/logo-fetch.png",
     start: 2016,
@@ -134,8 +134,8 @@ export const parcoursTimeline: TimelineItem[] = [
   },
   {
     slug: "escola-gestation",
-    title: "Pedagome, gestation du projet",
-    structure: "Pedagome, Metz",
+    title: "Escola, Cofondateur",
+    structure: "Cours particuliers à domicile, Metz",
     logo: "/images/experiences/logo-escola.png",
     start: 2017,
     end: 2021,
@@ -147,7 +147,7 @@ export const parcoursTimeline: TimelineItem[] = [
   },
   {
     slug: "pedagome-autodidacte",
-    title: "Pedagome, développeur autodidacte",
+    title: "Développeur autodidacte",
     structure: "Pedagome, Metz",
     logo: "/images/experiences/logo-pedagome.png",
     start: 2021,
@@ -159,8 +159,8 @@ export const parcoursTimeline: TimelineItem[] = [
   },
   {
     slug: "pedagome-iscod",
-    title: "Pedagome, alternance",
-    structure: "Pedagome, Metz",
+    title: "Développeur fullstack",
+    structure: "Pedagome, Apprentissage, Metz",
     logo: "/images/experiences/logo-pedagome.png",
     start: 2023,
     end: 2026,

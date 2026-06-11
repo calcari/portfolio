@@ -64,10 +64,14 @@ Ce projet m’a montré qu’un produit mobile ne se résume pas à son support 
 
 Dans ce contexte, la meilleure décision était de garder une expérience mobile simple, tout en limitant les coûts de conception et de maintenance. C’est un arbitrage très concret entre ambition technique, usage réel et moyens disponibles.
 
+## Expériences rattachées à cette réalisation
+
+- [Pedagome, alternance](/parcours/pedagome-iscod)
+
 ## Compétences rattachées à cette réalisation
 
-- [Développement web full-stack](http://../competences/developpement-web-full-stack.md)
-- [Cadrage fonctionnel, compréhension métier et modélisation des données](http://../competences/analyse-et-description-des-besoins.md)
-- [Communication](http://../competences/communication.md)
-- [Qualité du code, lisibilité et architecture](http://../competences/qualite-code-architecture.md)
+- [Développement web full-stack](/competences/developpement-web-full-stack)
+- [Cadrage fonctionnel, compréhension métier et modélisation des données](/competences/analyse-et-description-des-besoins)
+- [Communication](/competences/communication)
+- [Qualité du code, lisibilité et architecture](/competences/qualite-code-architecture)
 

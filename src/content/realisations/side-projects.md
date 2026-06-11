@@ -57,7 +57,7 @@ L’excès inverse existe aussi. Viser un niveau d’exigence trop élevé peut 
 
 ## Compétences rattachées à cette réalisation
 
-- [Développement web full-stack](../competences/developpement-web-full-stack.md)
-- [Cadrage fonctionnel, compréhension métier et modélisation des données](../competences/analyse-et-description-des-besoins.md)
-- [Autonomie et autoformation structurée](../competences/autonomie-et-autoformation-structuree.md)
-- [Qualité du code, lisibilité et architecture](../competences/qualite-code-architecture.md)
+- [Développement web full-stack](/competences/developpement-web-full-stack)
+- [Cadrage fonctionnel, compréhension métier et modélisation des données](/competences/analyse-et-description-des-besoins)
+- [Autonomie et autoformation structurée](/competences/autonomie-et-autoformation-structuree)
+- [Qualité du code, lisibilité et architecture](/competences/qualite-code-architecture)

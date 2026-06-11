@@ -22,11 +22,9 @@ import { AppNav } from "./app-nav"
 export function AppSidebar({
   className,
   onNavigate,
-  onOpenHero,
 }: {
   className?: string
   onNavigate?: () => void
-  onOpenHero?: () => void
 }) {
   return (
     <Sidebar collapsible="none" className={cn("h-full", className)}>
@@ -34,10 +32,7 @@ export function AppSidebar({
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton size="lg" asChild className="h-auto py-2">
-              <Link href="/" onClick={() => {
-                onNavigate?.()
-                onOpenHero?.()
-              }}>
+              <Link href="/" onClick={onNavigate}>
                 <Avatar className="size-15">
                   <AvatarImage
                     src="/images/hero-sec/user-img.png"
@@ -59,12 +54,12 @@ export function AppSidebar({
           </SidebarMenuItem>
         </SidebarMenu>
       </SidebarHeader>
-      <SidebarSeparator />
+      <SidebarSeparator className="mx-0" />
       <SidebarContent>
         <AppNav onNavigate={onNavigate} />
       </SidebarContent>
-      <SidebarSeparator />
-      <SidebarFooter className="p-3">
+      <SidebarSeparator className="mx-0" />
+      <SidebarFooter>
         <Button className="w-full" asChild>
           <a href="/contact">Me contacter</a>
         </Button>

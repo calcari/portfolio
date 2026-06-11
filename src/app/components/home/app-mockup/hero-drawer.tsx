@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import { Drawer as VaulDrawer } from "vaul"
 
-import HeroSection from "../hero-section"
+import { HeroContent } from "../hero-section/hero-content"
 
 export function HeroDrawer({
   open,
@@ -39,8 +39,8 @@ export function HeroDrawer({
         >
           <VaulDrawer.Title className="sr-only">Présentation</VaulDrawer.Title>
 
-          <div className="min-h-0 flex-1 overflow-hidden">
-            <HeroSection />
+          <div className="flex min-h-0 flex-1 flex-col items-center justify-center px-4 py-8 sm:px-6">
+            <HeroContent />
           </div>
 
           {/* Progress + label centered above the drag handle */}

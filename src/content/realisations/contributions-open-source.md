@@ -85,6 +85,6 @@ Dans ces trois cas, la difficulté n'était pas seulement d'identifier le bug, m
 
 ## Compétences rattachées à cette réalisation
 
-- [Qualité du code, lisibilité et architecture](http://../competences/qualite-code-architecture.md)
-- [Autonomie et autoformation structurée](http://../competences/autonomie-et-autoformation-structuree.md)
+- [Qualité du code, lisibilité et architecture](/competences/qualite-code-architecture)
+- [Autonomie et autoformation structurée](/competences/autonomie-et-autoformation-structuree)
 

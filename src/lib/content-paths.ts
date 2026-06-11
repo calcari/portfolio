@@ -1,5 +1,6 @@
 function experienceSlugFromFilename(filename: string): string {
-  return filename.replace(/^\d+\.\s*/, "").replace(/\.md$/i, "")
+  const decoded = decodeURIComponent(filename)
+  return decoded.replace(/^\d+\.\s*/, "").replace(/\.md$/i, "")
 }
 
 const REALISATION_ALIASES: Record<string, string> = {
@@ -68,6 +69,14 @@ export function resolveContentHref(href: string): string {
 
   if (/experiences\/index\.md$/i.test(cleaned)) {
     return "/parcours"
+  }
+
+  if (/^competences\/index\.md$/i.test(cleaned)) {
+    return "/competences"
+  }
+
+  if (/^realisations\/index\.md$/i.test(cleaned)) {
+    return "/realisations"
   }
 
   const competenceMatch = cleaned.match(/(?:^|\/)competences\/([^/?#]+)\.md$/i)

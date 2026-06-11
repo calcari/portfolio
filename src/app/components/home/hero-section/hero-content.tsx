@@ -5,6 +5,7 @@ import { MapPin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { GitHubIcon, LinkedInIcon } from "@/components/icons/social"
 import { cn } from "@/lib/utils"
+import Divider from '../../divider'
 
 const socialLinks = [
   { href: "https://github.com/calcari", label: "GitHub", Icon: GitHubIcon },
@@ -14,28 +15,28 @@ const socialLinks = [
 export function HeroContent({ className }: { className?: string }) {
   return (
     <div className={cn("mx-auto flex w-full max-w-xl flex-col items-center text-center", className)}>
-      <div className="mb-8 sm:mb-10">
+      <div className="mb-6 sm:mb-10">
         <Image
           src="/images/hero-sec/user-img.png"
           alt="Franck Calcari"
           width={176}
           height={176}
           priority
-          className="size-36 rounded-full border border-border object-cover sm:size-44"
+          className="size-30 rounded-full border border-border object-cover sm:size-44"
         />
       </div>
 
-      <div className="flex flex-col gap-4 sm:gap-5">
+      <div className="flex flex-col gap-2 sm:gap-5">
         <div className="space-y-2">
-          <h1 className="text-3xl font-medium tracking-tight text-primary sm:text-4xl">
+          <h1 className="text-2xl font-medium tracking-tight text-primary sm:text-4xl">
             Franck Calcari
           </h1>
-          <p className="text-base text-muted-foreground sm:text-lg">
+          <p className="text-sm sm:text-base text-muted-foreground sm:text-lg">
             Expert en ingénierie logicielle
           </p>
         </div>
 
-        <p className="mx-auto max-w-md text-base leading-relaxed text-muted-foreground">
+        <p className="mt-2 mx-auto max-w-md text-sm sm:text-base leading-tight text-muted-foreground">
           Je conçois des applications web performantes avec TypeScript et React.
           Développeur fullstack à Metz, je fais évoluer l&apos;écosystème numérique de Pedagome.
         </p>

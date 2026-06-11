@@ -40,5 +40,5 @@ Je veux surtout mieux outiller cette priorisation, mieux la formaliser : garder 
 
 ## Réalisations rattachées à cette compétence
 
-- [Monorepo Dopple](../realisations/✅ industrialiser-un-environnement-de-developpement-web-full-stack.md)
-- [Portail tuteur mobile-first](../realisations/✅ Portail tuteur mobile-first.md)
+- [Monorepo Dopple](/realisations/industrialiser-environnement-dev)
+- [Portail tuteur mobile-first](/realisations/portail-tuteur-mobile-first)

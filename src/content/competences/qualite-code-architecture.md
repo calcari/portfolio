@@ -12,13 +12,13 @@ Mais ça ne consiste pas à appliquer machinalement des règles comme "une fonct
 
 ### Anecdote : Ce que j'ai appris à mes dépens
 
-Pendant [ma période autodidacte](../experiences/4.%20pedagome-autodidacte.md), avant mon entrée en formation, j'ai développé les premières versions d'un SI interne pour une entreprise de cours particuliers, en JavaScript pur, avec peu de structure et des fonctions trop longues qui faisaient trop de choses. Tout fonctionnait en surface, mais le moindre changement pouvait casser quelque chose d'autre.
+Pendant [ma période autodidacte](/parcours/pedagome-autodidacte), avant mon entrée en formation, j'ai développé les premières versions d'un SI interne pour une entreprise de cours particuliers, en JavaScript pur, avec peu de structure et des fonctions trop longues qui faisaient trop de choses. Tout fonctionnait en surface, mais le moindre changement pouvait casser quelque chose d'autre.
 
 Avant d’ajouter une fonctionnalité, je devais souvent reprendre le fil d’une logique trop concentrée dans quelques fonctions longues.
 
 Avec le temps, j’ai compris pourquoi il fallait structurer plus tôt, typer davantage et automatiser certaines conventions.
 
-Lien vers l’expérience : [Pedagome, temps plein, développeur autodidacte](../experiences/4.%20pedagome-autodidacte.md)
+Lien vers l’expérience : [Pedagome, temps plein, développeur autodidacte](/parcours/pedagome-autodidacte)
 
 ### Anecdote : TypeScript et les champs null
 
@@ -28,7 +28,7 @@ Il est facile d'oublier de vérifier si une variable est nulle avant de lire ses
 
 Avec `strictNullChecks` activé en TypeScript, le compilateur signale les sections susceptibles de causer des erreurs. Le lint signale l'usage de `any` pour éviter de court-circuiter les vérifications du type-checker.
 
-Lien vers la réalisation : [Monorepo Dopple](../realisations/%E2%9C%85%20industrialiser-un-environnement-de-developpement-web-full-stack.md)
+Lien vers la réalisation : [Monorepo Dopple](/realisations/industrialiser-environnement-dev)
 
 ## Mon autocritique
 
@@ -42,5 +42,5 @@ Je veux progresser en me confrontant à des bases de code plus grandes et plus c
 
 ## Réalisations rattachées à cette compétence
 
-- [API Tiers de prestations](<../realisations/✅ API Tiers de prestations.md>)
-- [Monorepo Dopple](../realisations/%E2%9C%85%20industrialiser-un-environnement-de-developpement-web-full-stack.md)
+- [API Tiers de prestations](/realisations/api-tiers-de-prestations)
+- [Monorepo Dopple](/realisations/industrialiser-environnement-dev)

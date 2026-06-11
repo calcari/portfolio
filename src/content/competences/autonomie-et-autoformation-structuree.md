@@ -30,5 +30,5 @@ Le fait de suivre un cursus à l’ISCOD va justement dans ce sens. Cette format
 
 ## Réalisations rattachées à cette compétence
 
-- [API Tiers de prestations](http://../realisations/concevoir-un-erp-metier-full-stack-pour-centraliser-l-activite.md)
-- [Monorepo Dopple](http://../realisations/%E2%9C%85%20industrialiser-un-environnement-de-developpement-web-full-stack.md)
+- [API Tiers de prestations](/realisations/api-tiers-de-prestations)
+- [Monorepo Dopple](/realisations/industrialiser-environnement-dev)

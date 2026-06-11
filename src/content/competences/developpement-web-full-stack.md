@@ -4,7 +4,7 @@
 
 Le développement full-stack, c'est la capacité à prendre en charge une feature de bout en bout : depuis l'interface utilisateur jusqu'à la base de données, en passant par la logique serveur, les appels d'API et la modélisation des données. Ce n'est pas seulement une question de langage ou de framework, c'est surtout une façon de raisonner sur un besoin sans avoir à passer la main à chaque couche.
 
-Dans le contexte d'un SI métier comme [Dopple](http://../realisations/✅industrialiser-un-environnement-de-developpement-web-full-stack.md), un ERP interne pour une entreprise de cours particuliers, les besoins traversent souvent plusieurs couches : facturation, gestion de cours, suivi administratif, notifications. Savoir intervenir sur l'ensemble de la pile permet de livrer des features complètes, de comprendre l'impact d'un changement côté base sur le comportement côté client, et de ne pas créer de goulots d'étranglement.
+Dans le contexte d'un SI métier comme [Dopple](/realisations/industrialiser-environnement-dev), un ERP interne pour une entreprise de cours particuliers, les besoins traversent souvent plusieurs couches : facturation, gestion de cours, suivi administratif, notifications. Savoir intervenir sur l'ensemble de la pile permet de livrer des features complètes, de comprendre l'impact d'un changement côté base sur le comportement côté client, et de ne pas créer de goulots d'étranglement.
 
 Une feature full-stack commence souvent par la modélisation des données. Traduire un besoin métier en schéma de base de données, anticiper les relations, choisir les bons types, prévoir les cas particuliers : ce sont des étapes qui conditionnent la solidité de tout ce qui suit. J'utilise principalement MikroORM et j'ai aussi travaillé avec Hibernate dans le cadre de ma formation à l’ISCOD.
 
@@ -34,6 +34,6 @@ Je veux rester à jour sur les évolutions de l'écosystème web, qui bouge vite
 
 ## Réalisations rattachées à cette compétence
 
-- [Portail tuteur mobile-first](http://../realisations/✅Portailtuteurmobile-first.md)
-- [Side projects](http://../realisations/✅side-projects.md)
+- [Portail tuteur mobile-first](/realisations/portail-tuteur-mobile-first)
+- [Side projects](/realisations/side-projects)
 

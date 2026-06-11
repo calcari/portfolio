@@ -1,3 +1,5 @@
+![Franck Calcari](/images/about-me/about-me.jpg)
+
 # Présentation générale
 
 Je me donne pour objectif, à travers l’ingénierie logicielle, de concevoir des outils qui améliorent concrètement un usage, un service ou une organisation. Ce qui m’intéresse n’est pas seulement la solution technique, mais le lien entre ce que l’on construit, les personnes qui l’utilisent et le contexte dans lequel l’outil doit vivre.
@@ -18,7 +20,7 @@ Même si je maîtrise bien l’**écosystème JavaScript moderne**, je n’ai pa
 
 Je veux surtout consolider un profil capable d’intervenir sur l’ensemble de la chaîne : **cadrage**, **modélisation des données**, **frontend**, **backend**, intégration, qualité du code et **industrialisation de l’environnement**. Ce positionnement me rapproche naturellement de rôles d’interface entre métier et technique, avec une vraie attention portée au produit et aux besoins, tout en restant ancré dans la **réalisation logicielle**. Dans des environnements toujours plus complexes, une culture technique étendue est indispensable pour prendre part aux processus de décision.
 
-Plus largement, plusieurs années d’implication dans un **[projet entrepreneurial de cours particuliers à domicile](./experiences/3.%20escola-gestation.md)** ont beaucoup compté dans ma façon de voir le travail. Cette expérience a été forte humainement, collectivement comme individuellement : apprendre à se soutenir dans les moments difficiles, à célébrer les réussites, à travailler sous pression et à avancer malgré l’incertitude. Elle m’a aussi aidé à mieux comprendre comment fonctionne une organisation et à prendre davantage de recul sur ce que je veux construire par la suite. Le **mastère Expert en Ingénierie du Logiciel** s’inscrit dans cette continuité, en m’aidant à formaliser et à approfondir des acquis construits d’abord par la pratique.
+Plus largement, plusieurs années d’implication dans un **[projet entrepreneurial de cours particuliers à domicile](/parcours/escola-gestation)** ont beaucoup compté dans ma façon de voir le travail. Cette expérience a été forte humainement, collectivement comme individuellement : apprendre à se soutenir dans les moments difficiles, à célébrer les réussites, à travailler sous pression et à avancer malgré l’incertitude. Elle m’a aussi aidé à mieux comprendre comment fonctionne une organisation et à prendre davantage de recul sur ce que je veux construire par la suite. Le **mastère Expert en Ingénierie du Logiciel** s’inscrit dans cette continuité, en m’aidant à formaliser et à approfondir des acquis construits d’abord par la pratique.
 
 ## Mes qualités humaines
 
@@ -33,9 +35,3 @@ Je pense aussi être quelqu’un de **curieux**. Quand un sujet m’intéresse o
 Je m’intéresse beaucoup à l’**actualité**, à la politique, à l’économie, ainsi qu’aux **sciences** et aux **technologies**. Mon premier cursus en **mesures physiques** s’inscrit assez naturellement dans cet intérêt pour les sciences. On retrouve dans ces sujets la même envie de comprendre le monde, son fonctionnement et ses structures.
 
 En dehors du travail, j’accorde de l’importance au temps passé avec mes **proches**. Cela passe aussi par des loisirs assez simples mais importants pour moi : les **jeux de société** et une culture musicale assez éclectique, du **jazz fusion** à la **musique électronique**. J’ai aussi **traversé la France à vélo**, une expérience qui correspond assez bien à mon goût pour l’exploration et les projets longs, concrets, qui demandent de la préparation et de la constance.
-
-## Liens utiles
-
-* **[Compétences](./competences/index.md)**
-* **[Réalisations](./realisations/index.md)**
-* **[Expériences](./experiences/index.md)**

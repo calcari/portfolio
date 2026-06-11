@@ -11,9 +11,3 @@ Cette page sert de navigation et de vue d’ensemble des expériences et formati
 ## Modèle
 
 - [Template expérience](./_template.md)
-
-## Liens utiles
-
-- [Présentation](../presentation.md)
-- [Compétences](../competences/index.md)
-- [Réalisations](../realisations/index.md)

@@ -38,5 +38,5 @@ Je veux progresser dans la comparaison des solutions avant de décider : clarifi
 
 ## Réalisations rattachées à cette compétence
 
-- [Side projects](<../realisations/✅ side-projects.md>)
-- [Monorepo Dopple](<../realisations/✅ industrialiser-un-environnement-de-developpement-web-full-stack.md>)
+- [Side projects](/realisations/side-projects)
+- [Monorepo Dopple](/realisations/industrialiser-environnement-dev)

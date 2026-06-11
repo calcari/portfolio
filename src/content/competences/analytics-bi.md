@@ -16,13 +16,13 @@ J’ai mis en place un pipeline simple pour exploiter des données issues du SI 
 
 Les tableaux concernaient surtout les ventes et la consommation des heures de cours. L’intérêt était de pouvoir les analyser selon plusieurs axes : persona, ville, matière, période ou type de besoin. Cela permettait de consulter certains chiffres sans interroger manuellement la base, et de repérer plus vite les écarts ou les tendances utiles au pilotage de l’activité.
 
-Lien avec une réalisation liée au SI : [Monorepo Dopple](<../realisations/✅ industrialiser-un-environnement-de-developpement-web-full-stack.md>)
+Lien avec une réalisation liée au SI : [Monorepo Dopple](/realisations/industrialiser-environnement-dev)
 
 ### Anecdote 2 : anticiper les besoins de mesure dans les parcours métier
 
 Certains besoins de pilotage doivent être anticipés dès la conception. Pour suivre un délai entre une demande entrante et le démarrage des cours, l’état actuel d’un dossier ne suffit pas. Il faut garder des dates intermédiaires : premier contact, proposition, attribution, démarrage, suspension ou arrêt. Des données bien structurées permettent ensuite de produire des indicateurs utiles sans requêtes SQL bricolées.
 
-Lien avec une réalisation liée au suivi des cours : [Portail tuteur mobile-first](<../realisations/✅ Portail tuteur mobile-first.md>)
+Lien avec une réalisation liée au suivi des cours : [Portail tuteur mobile-first](/realisations/portail-tuteur-mobile-first)
 
 ### Anecdote 3 : suivre les conversions marketing
 
@@ -30,7 +30,7 @@ J’ai travaillé sur le suivi des conversions avec Google Tag Manager, GA4 et G
 
 Une conversion mal paramétrée fausse rapidement l’analyse d’une campagne ads. Le travail consistait donc autant à installer le tracking qu’à définir précisément ce qui devait être considéré comme une conversion exploitable.
 
-Lien avec une réalisation liée au SI : [Monorepo Dopple](<../realisations/✅ industrialiser-un-environnement-de-developpement-web-full-stack.md>)
+Lien avec une réalisation liée au SI : [Monorepo Dopple](/realisations/industrialiser-environnement-dev)
 
 ## Mon autocritique
 
@@ -38,7 +38,7 @@ Mon niveau est surtout opérationnel. Je sais partir d’un besoin de pilotage, 
 
 Je ne me présente pas comme un spécialiste data complet. Je n’ai pas travaillé sur de très gros volumes ni sur des architectures avancées de type Spark ou Hadoop en production. Mon expérience porte plutôt sur des données d’activité, proches du métier.
 
-Mon principal point de vigilance est de ne pas faire dire trop de choses aux données. Un indicateur dépend toujours d’une définition, d’une source et d’un contexte. Il peut y avoir des biais importants, tant dans le calcul que dans l’interprétation. C’est un point auquel ma formation initiale en [Mesures Physiques](../experiences/2.%20iut-mesure-pysiques.md) m’a rendu assez sensible : une mesure n’a de valeur que si l’on comprend comment elle est produite, ce qu’elle représente réellement, et ce qu’elle ne permet pas de conclure.
+Mon principal point de vigilance est de ne pas faire dire trop de choses aux données. Un indicateur dépend toujours d’une définition, d’une source et d’un contexte. Il peut y avoir des biais importants, tant dans le calcul que dans l’interprétation. C’est un point auquel ma formation initiale en [Mesures Physiques](/parcours/iut-mesure-pysiques) m’a rendu assez sensible : une mesure n’a de valeur que si l’on comprend comment elle est produite, ce qu’elle représente réellement, et ce qu’elle ne permet pas de conclure.
 
 ## Mon évolution dans cette compétence
 
@@ -46,5 +46,5 @@ Mon principal point de vigilance est de ne pas faire dire trop de choses aux don
 
 ## Réalisations rattachées à cette compétence
 
-- [Monorepo Dopple](<../realisations/✅ industrialiser-un-environnement-de-developpement-web-full-stack.md>)
-- [Portail tuteur mobile-first](<../realisations/✅ Portail tuteur mobile-first.md>)
+- [Monorepo Dopple](/realisations/industrialiser-environnement-dev)
+- [Portail tuteur mobile-first](/realisations/portail-tuteur-mobile-first)
