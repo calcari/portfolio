@@ -32,3 +32,5 @@ Le fait de suivre un cursus à l’ISCOD va justement dans ce sens. Cette format
 
 - [API Tiers de prestations](/realisations/api-tiers-de-prestations)
 - [Monorepo Dopple](/realisations/industrialiser-environnement-dev)
+- [Contributions open source](/realisations/contributions-open-source)
+- [Side projects](/realisations/side-projects)

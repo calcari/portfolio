@@ -42,4 +42,6 @@ Je veux surtout progresser dans l’animation des ateliers de cadrage : mieux pr
 
 - [API Tiers de prestations](/realisations/api-tiers-de-prestations)
 - [Portail tuteur mobile-first](/realisations/portail-tuteur-mobile-first)
+- [Monorepo Dopple](/realisations/industrialiser-environnement-dev)
+- [Side projects](/realisations/side-projects)
 

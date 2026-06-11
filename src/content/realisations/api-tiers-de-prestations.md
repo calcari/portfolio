@@ -78,7 +78,9 @@ L’absence de webhook ou d’endpoint de suivi clair a aussi montré qu’une A
 ## Compétences rattachées à cette réalisation
 
 - [Développement web full-stack](/competences/developpement-web-full-stack)
-- [Cadrage fonctionnel, compréhension métier et modélisation des données](/competences/analyse-et-description-des-besoins)
+- [Analyse](/competences/analyse-et-description-des-besoins)
 - [Comptabilité et paie](/competences/comptabilite-paie)
-- [Qualité du code, lisibilité et architecture](/competences/qualite-code-architecture)
+- [Qualité du code et architecture](/competences/qualite-code-architecture)
+- [Autonomie](/competences/autonomie-et-autoformation-structuree)
+- [Communication](/competences/communication)
 

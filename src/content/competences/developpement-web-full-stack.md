@@ -36,4 +36,6 @@ Je veux rester à jour sur les évolutions de l'écosystème web, qui bouge vite
 
 - [Portail tuteur mobile-first](/realisations/portail-tuteur-mobile-first)
 - [Side projects](/realisations/side-projects)
+- [API Tiers de prestations](/realisations/api-tiers-de-prestations)
+- [Monorepo Dopple](/realisations/industrialiser-environnement-dev)
 

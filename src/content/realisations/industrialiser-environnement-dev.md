@@ -90,7 +90,11 @@ Il faut donc savoir faire des compromis. Par exemple, je n’ai pas ajouté un e
 
 ## Compétences rattachées à cette réalisation
 
-- [Industrialisation de l’environnement de développement](/competences/industrialisation-environnement-developpement)
-- [Qualité du code, lisibilité et architecture](/competences/qualite-code-architecture)
+- [Industrialisation de l'environnement](/competences/industrialisation-environnement-developpement)
+- [Qualité du code et architecture](/competences/qualite-code-architecture)
 - [Développement web full-stack](/competences/developpement-web-full-stack)
-- [Cadrage fonctionnel, compréhension métier et modélisation des données](/competences/analyse-et-description-des-besoins)
+- [Analyse](/competences/analyse-et-description-des-besoins)
+- [Autonomie](/competences/autonomie-et-autoformation-structuree)
+- [Organisation et priorisation](/competences/organisation-et-priorisation)
+- [Fiabilité](/competences/fiabilite)
+- [Analytics & BI](/competences/analytics-bi)

@@ -71,7 +71,9 @@ Dans ce contexte, la meilleure décision était de garder une expérience mobile
 ## Compétences rattachées à cette réalisation
 
 - [Développement web full-stack](/competences/developpement-web-full-stack)
-- [Cadrage fonctionnel, compréhension métier et modélisation des données](/competences/analyse-et-description-des-besoins)
+- [Analyse](/competences/analyse-et-description-des-besoins)
 - [Communication](/competences/communication)
-- [Qualité du code, lisibilité et architecture](/competences/qualite-code-architecture)
+- [Qualité du code et architecture](/competences/qualite-code-architecture)
+- [Organisation et priorisation](/competences/organisation-et-priorisation)
+- [Analytics & BI](/competences/analytics-bi)
 

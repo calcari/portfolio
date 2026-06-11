@@ -44,3 +44,6 @@ Je veux progresser en me confrontant à des bases de code plus grandes et plus c
 
 - [API Tiers de prestations](/realisations/api-tiers-de-prestations)
 - [Monorepo Dopple](/realisations/industrialiser-environnement-dev)
+- [Portail tuteur mobile-first](/realisations/portail-tuteur-mobile-first)
+- [Contributions open source](/realisations/contributions-open-source)
+- [Side projects](/realisations/side-projects)
