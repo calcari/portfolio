@@ -1,6 +1,6 @@
 ![](/images/realisations/vignette-open-source.png)
 
-# Contribuer à des projets open source par l'investigation de bugs complexes
+# Contributions open source
 
 ## Contexte du projet
 
@@ -86,5 +86,4 @@ Dans ces trois cas, la difficulté n'était pas seulement d'identifier le bug, m
 ## Compétences rattachées à cette réalisation
 
 - [Qualité du code, lisibilité et architecture](/competences/qualite-code-architecture)
-- [Autonomie et autoformation structurée](/competences/autonomie-et-autoformation-structuree)
-
+- [Autonomie et autoformation](/competences/autonomie-et-autoformation-structuree)

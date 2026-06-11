@@ -15,15 +15,16 @@ import {
 } from "@/components/ui/breadcrumb"
 
 import { nav } from "./nav-config"
-import {
-  competenceGroups,
-  parcoursTimeline,
-  realisations,
-} from "./content-meta"
+import { competenceGroups, parcoursTimeline } from "./content-meta"
+import type { NavItem } from "./nav-config"
 
 type Crumb = { label: string; href?: string; root?: boolean }
 
-const realisationTitle = new Map(realisations.map((r) => [r.slug, r.title]))
+function realisationTitleMap(items: NavItem[]) {
+  return new Map(
+    items.map((item) => [item.href.replace(/^\/realisations\//, ""), item.title])
+  )
+}
 const competenceTitle = new Map(
   competenceGroups.flatMap((g) => g.items).map((i) => [i.slug, i.title])
 )
@@ -39,8 +40,12 @@ function navTitleByHref(href: string): string | undefined {
   return nav.find((section) => section.href === href)?.title
 }
 
-function leafTitle(segment: string, slug: string): string | undefined {
-  if (segment === "realisations") return realisationTitle.get(slug)
+function leafTitle(
+  segment: string,
+  slug: string,
+  realisationTitles: Map<string, string>
+): string | undefined {
+  if (segment === "realisations") return realisationTitles.get(slug)
   if (segment === "competences") return competenceTitle.get(slug)
   if (segment === "parcours") return experienceTitle.get(slug)
   return undefined
@@ -51,7 +56,7 @@ function prettify(slug: string): string {
   return text.charAt(0).toUpperCase() + text.slice(1)
 }
 
-function useTrail(): Crumb[] {
+function useTrail(realisationTitles: Map<string, string>): Crumb[] {
   const pathname = usePathname()
   const parts = pathname.split("/").filter(Boolean)
   const crumbs: Crumb[] = [{ label: "Accueil", href: "/", root: true }]
@@ -64,7 +69,11 @@ function useTrail(): Crumb[] {
       crumbs.push({ label: hubLabel })
     } else {
       crumbs.push({ label: hubLabel, href: hubHref })
-      crumbs.push({ label: leafTitle(parts[0], parts[1]) ?? prettify(parts[1]) })
+      crumbs.push({
+        label:
+          leafTitle(parts[0], parts[1], realisationTitles) ??
+          prettify(parts[1]),
+      })
     }
   }
 
@@ -83,8 +92,12 @@ function CrumbContent({ crumb }: { crumb: Crumb }) {
   return <span className="truncate">{crumb.label}</span>
 }
 
-export function AppBreadcrumb() {
-  const trail = useTrail()
+export function AppBreadcrumb({
+  realisationNavItems,
+}: {
+  realisationNavItems: NavItem[]
+}) {
+  const trail = useTrail(realisationTitleMap(realisationNavItems))
 
   return (
     <Breadcrumb>

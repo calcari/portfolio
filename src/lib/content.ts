@@ -57,6 +57,23 @@ export async function listCompetenceSlugs(): Promise<string[]> {
     .map((file) => file.replace(/\.md$/i, ""))
 }
 
+export function extractMarkdownTitle(markdown: string): string | undefined {
+  for (const line of markdown.split("\n")) {
+    const match = line.match(/^#\s+(.+?)\s*$/)
+    if (match) return match[1].trim()
+  }
+
+  return undefined
+}
+
+export async function getRealisationArticleTitle(
+  slug: string
+): Promise<string | undefined> {
+  const content = await getRealisation(slug)
+  if (!content) return undefined
+  return extractMarkdownTitle(content)
+}
+
 export async function getRealisation(slug: string): Promise<string | null> {
   return readContentFile(`realisations/${slug}.md`)
 }

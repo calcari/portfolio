@@ -31,19 +31,19 @@ export const realisations: CardMeta[] = [
   {
     slug: "portail-tuteur-mobile-first",
     title: "Portail tuteur mobile-first",
-    subtitle: "Un espace en ligne mobile-first pour coordonner les tuteurs.",
+    subtitle: "Un espace en ligne mobile-first pour coordonner des cours particuliers.",
     image: "/images/realisations/vignette-teachers-app.png",
   },
   {
     slug: "contributions-open-source",
     title: "Contributions open source",
-    subtitle: "Investigation et résolution de bugs complexes en amont.",
+    subtitle: "Investigation et résolution de bugs dans des librairies open source.",
     image: "/images/realisations/vignette-open-source.png",
   },
   {
     slug: "industrialiser-environnement-dev",
-    title: "Industrialiser un environnement full-stack",
-    subtitle: "Monorepo Dopple : outillage et industrialisation du dev.",
+    title: "Monorepo Dopple",
+    subtitle: "Migration vers un monorepo et outillage pour industrialiser le développement.",
     image: "/images/realisations/vignette-monorepo.png",
   },
   {
@@ -251,7 +251,7 @@ export const competenceGroups: CompetenceGroup[] = [
       },
       {
         slug: "comptabilite-paie",
-        title: "Comptabilité & paie",
+        title: "Comptabilité et paie",
         subtitle: "Domaine métier maîtrisé au service du SI.",
         icon: Calculator,
         level: 4,

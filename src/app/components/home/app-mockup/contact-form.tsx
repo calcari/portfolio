@@ -1,5 +1,6 @@
 "use client"
 
+import { useState } from "react"
 import { useForm } from "@tanstack/react-form"
 import type { AnyFieldApi } from "@tanstack/react-form"
 import { toast } from "sonner"
@@ -22,7 +23,22 @@ function FieldError({ field }: { field: AnyFieldApi }) {
   return <p className="text-xs text-destructive">{message}</p>
 }
 
+function ContactSuccess() {
+  return (
+    <div className="flex min-h-[360px] flex-col items-center justify-center px-6 text-center">
+      <p className="text-2xl font-medium tracking-tight text-primary sm:text-3xl">
+        Merci, votre message a bien été envoyé.
+      </p>
+      <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted-foreground">
+        Je vous ferai un retour dès que possible.
+      </p>
+    </div>
+  )
+}
+
 export function ContactForm() {
+  const [successCount, setSuccessCount] = useState(0)
+
   const form = useForm({
     defaultValues: {
       prenom: "",
@@ -35,14 +51,18 @@ export function ContactForm() {
     validators: { onChange: contactSchema },
     onSubmit: async ({ value }) => {
       const result = await sendContact(value)
-      if (result.ok) {
-        toast.success("Message envoyé, merci !")
-        form.reset()
-      } else {
+      if (!result.ok) {
         toast.error(result.error)
+        throw new Error(result.error)
       }
+      setSuccessCount((count) => count + 1)
+      form.reset()
     },
   })
+
+  if (successCount > 0) {
+    return <ContactSuccess />
+  }
 
   return (
     <form

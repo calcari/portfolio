@@ -18,13 +18,16 @@ import {
 import { GitHubIcon, LinkedInIcon } from "@/components/icons/social"
 
 import { AppNav } from "./app-nav"
+import type { NavItem } from "./nav-config"
 
 export function AppSidebar({
   className,
   onNavigate,
+  realisationNavItems,
 }: {
   className?: string
   onNavigate?: () => void
+  realisationNavItems: NavItem[]
 }) {
   return (
     <Sidebar collapsible="none" className={cn("h-full", className)}>
@@ -56,7 +59,10 @@ export function AppSidebar({
       </SidebarHeader>
       <SidebarSeparator className="mx-0" />
       <SidebarContent>
-        <AppNav onNavigate={onNavigate} />
+        <AppNav
+          onNavigate={onNavigate}
+          realisationNavItems={realisationNavItems}
+        />
       </SidebarContent>
       <SidebarSeparator className="mx-0" />
       <SidebarFooter>

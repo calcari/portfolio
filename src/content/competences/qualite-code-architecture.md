@@ -1,4 +1,4 @@
-# Qualité du code, lisibilité et architecture
+# Compétence : Qualité du code, lisibilité et architecture
 
 ## Ma définition
 

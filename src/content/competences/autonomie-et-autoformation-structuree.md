@@ -1,4 +1,4 @@
-# Compétence : Autonomie et autoformation structurée
+# Compétence : Autonomie et autoformation
 
 ## Ma définition
 

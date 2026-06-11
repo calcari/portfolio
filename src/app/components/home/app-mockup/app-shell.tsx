@@ -16,14 +16,17 @@ import { SidebarProvider } from "@/components/ui/sidebar"
 import { AppBreadcrumb } from "./app-breadcrumb"
 import { AppSidebar } from "./app-sidebar"
 import { ModeToggle } from "./mode-toggle"
+import type { NavItem } from "./nav-config"
 import { cn } from '@/lib/utils'
 
 export function AppShell({
   children,
   onOpenHero,
+  realisationNavItems,
 }: {
   children: React.ReactNode
   onOpenHero?: () => void
+  realisationNavItems: NavItem[]
 }) {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [fullScreen, setFullScreen] = useState(false)
@@ -53,13 +56,16 @@ export function AppShell({
             />
           </div>
           <div className="min-w-0 flex-1">
-            <AppBreadcrumb />
+            <AppBreadcrumb realisationNavItems={realisationNavItems} />
           </div>
           <ModeToggle />
         </div>
 
         <div className="flex min-h-0 flex-1">
-          <AppSidebar className="hidden border-r md:flex" />
+          <AppSidebar
+            className="hidden border-r md:flex"
+            realisationNavItems={realisationNavItems}
+          />
           <main className="min-w-0 flex-1 overflow-y-auto">
             {children}
           </main>
@@ -85,6 +91,7 @@ export function AppShell({
             </SheetHeader>
             <AppSidebar
               className="w-full border-0"
+              realisationNavItems={realisationNavItems}
               onNavigate={() => setMobileOpen(false)}
             />
           </SheetContent>
