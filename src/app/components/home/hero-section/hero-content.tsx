@@ -5,7 +5,6 @@ import { MapPin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { GitHubIcon, LinkedInIcon } from "@/components/icons/social"
 import { cn } from "@/lib/utils"
-import Divider from '../../divider'
 
 const socialLinks = [
   { href: "https://github.com/calcari", label: "GitHub", Icon: GitHubIcon },
