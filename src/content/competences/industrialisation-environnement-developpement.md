@@ -16,7 +16,7 @@ Un pipeline `CI/CD` fait donc partie de la chaîne de confiance du projet. Les c
 
 ### Anecdote 1 : Structurer un environnement reproductible et vérifiable
 
-Pendant [mon mastère à l’ISCOD](/parcours/pedagome-iscod), j’ai restructuré l’environnement de `Dopple`, le SI interne de Pedagome, autour d’un monorepo `pnpm / Nx`. Le projet regroupait plusieurs applications et services qui avaient commencé à évoluer séparément : dépendances différentes, code utilitaire dupliqué, contrats entre frontend et backend moins faciles à suivre, déploiements à coordonner dans plusieurs dépôts.
+Pendant [mon mastère à l’ISCOD](/parcours/iscod), j’ai restructuré l’environnement de `Dopple`, le SI interne de Pedagome, autour d’un monorepo `pnpm / Nx`. Le projet regroupait plusieurs applications et services qui avaient commencé à évoluer séparément : dépendances différentes, code utilitaire dupliqué, contrats entre frontend et backend moins faciles à suivre, déploiements à coordonner dans plusieurs dépôts.
 
 Le travail n’a pas seulement consisté à déplacer du code. Il fallait rendre l’environnement plus cohérent : centraliser certaines versions de dépendances, structurer des packages partagés, cibler les projets réellement affectés par une modification, conserver un cache exploitable entre plusieurs pipelines et exécuter des tests `Playwright` sur les flux critiques avant la production. Ce chantier est détaillé dans la réalisation [Monorepo Dopple](/realisations/industrialiser-environnement-dev).
 

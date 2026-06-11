@@ -72,9 +72,8 @@ L’absence de webhook ou d’endpoint de suivi clair a aussi montré qu’une A
 
 ## Expériences rattachées à cette réalisation
 
-- [Pedagome, alternance](/parcours/pedagome-iscod)
+- [Pedagome, apprentissage](/parcours/pedagome-apprentissage)
 - [Pedagome, développeur autodidacte](/parcours/pedagome-autodidacte)
-- [Pedagome, gestation du projet](/parcours/escola-gestation)
 
 ## Compétences rattachées à cette réalisation
 

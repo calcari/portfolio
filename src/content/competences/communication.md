@@ -28,7 +28,7 @@ Lien vers la réalisation : [Contributions open source](/realisations/contributi
 
 ### Anecdote 3 : Accompagner un profil moins expérimenté sur une base de code existante
 
-J’ai développé cette compétence en accompagnant un profil moins expérimenté sur une base de code existante. Je devais lui expliquer comment le projet était organisé, pourquoi certaines conventions existaient, et comment éviter des erreurs d’intégration. Cela m’a obligé à rendre plus explicites des raisonnements que je gardais parfois pour moi. L’accompagnement est devenu plus fluide et moins dépendant d’aller-retours permanents. Outre le gain de temps, ça m'a permi de faire évoluer ma posture managériale.
+J’ai développé cette compétence en accompagnant un profil moins expérimenté sur une base de code existante. Je devais lui expliquer comment le projet était organisé, pourquoi certaines conventions existaient, et comment éviter des erreurs d’intégration. Cela m’a obligé à rendre plus explicites des raisonnements que je gardais parfois pour moi. L’accompagnement est devenu plus fluide et moins dépendant d’aller-retours permanents. Outre le gain de temps, ça m'a permis de faire évoluer ma posture managériale.
 
 Lien vers la réalisation : [Portail tuteur mobile-first](/realisations/portail-tuteur-mobile-first)
 

@@ -6,7 +6,7 @@
 
 Pedagome est un organisme de cours particuliers à domicile situé à Metz. Son activité repose sur la mise en relation entre des familles, des élèves et des tuteurs.
 
-J’ai travaillé sur ce portail pendant mon alternance à l’ISCOD, principalement en 2025, dans la continuité des outils internes déjà utilisés par l’entreprise.
+J’ai travaillé sur ce portail pendant mon alternance à l’[ISCOD](/parcours/iscod), principalement en 2025, dans la continuité des outils internes déjà utilisés par l’entreprise.
 
 Avant le portail tuteur, une partie de cette relation reposait encore sur des échanges dispersés : mails, appels, formulaires distincts et relances manuelles.
 
@@ -66,7 +66,7 @@ Dans ce contexte, la meilleure décision était de garder une expérience mobile
 
 ## Expériences rattachées à cette réalisation
 
-- [Pedagome, alternance](/parcours/pedagome-iscod)
+- [Pedagome, apprentissage](/parcours/pedagome-apprentissage)
 
 ## Compétences rattachées à cette réalisation
 

@@ -25,10 +25,6 @@ export async function getPresentation(): Promise<string | null> {
   return readContentFile("presentation.md")
 }
 
-export async function getParcoursIndex(): Promise<string | null> {
-  return readContentFile("experiences/index.md")
-}
-
 export async function getExperience(slug: string): Promise<string | null> {
   const files = await fs.readdir(sectionDir("experiences"))
   const match = files.find(

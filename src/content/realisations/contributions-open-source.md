@@ -26,7 +26,7 @@ Le scénario de découverte était simple. Après avoir généré des migrations
 
 En investiguant, j'ai constaté que le mécanisme de diff (la comparaison entre l'état attendu à partir des entités et l'état réel de la base de données) contenait des erreurs spécifiques au driver MySQL. Ces erreurs n'avaient pas été détectées parce que les tests de la librairie portaient principalement sur les drivers PostgreSQL et MongoDB.
 
-N'ayant pas encore une connaissance assez fine du fonctionnement interne d'un ORM (c'était avant ma formation à l'ISCOD), je me suis limité à ouvrir des issues détaillées en y suggérant des pistes de correction. J'avais vérifié au préalable que mes propositions résolvaient bien le problème, mais je n'étais pas certain du bon endroit où appliquer la modification, ni de ses effets de bord possibles. Ces issues ont donné lieu à des corrections par le mainteneur.
+N'ayant pas encore une connaissance assez fine du fonctionnement interne d'un ORM (c'était avant ma formation à l'[ISCOD](/parcours/iscod)), je me suis limité à ouvrir des issues détaillées en y suggérant des pistes de correction. J'avais vérifié au préalable que mes propositions résolvaient bien le problème, mais je n'étais pas certain du bon endroit où appliquer la modification, ni de ses effets de bord possibles. Ces issues ont donné lieu à des corrections par le mainteneur.
 
 ### TanStack DB : des données figées avec React Suspense
 
@@ -47,7 +47,7 @@ Une fois le bug identifié et corrigé, j'ai mis en balance plusieurs critères 
 - des conséquences limitées par le contexte d'utilisation (quelques utilisateurs internes), pour des gains importants en performances et en rapidité de développement
 - une bonne adéquation avec les problèmes que j'avais à résoudre
 
-J'ai finalement retenu cette intégration, même en bêta, pour les fiches client de Dopple, l’ERP interne de Pedagome.
+J'ai finalement retenu cette intégration, même en bêta, pour les fiches client de [Dopple](/realisations/industrialiser-environnement-dev), l’ERP interne de Pedagome.
 
 TanStack DB n'est ni une base de données, ni un ORM : c'est un moteur de collections normalisées côté client. Une fois les données chargées depuis le backend via des requêtes fetch classiques (par exemple la liste des cours d'un élève), chaque élément est stocké en cache par la librairie et associé à un identifiant. Sa valeur ajoutée centrale est dans la mise à jour des données : si on édite un seul cours, il n'est pas nécessaire de recharger toute la liste. Il suffit de mettre à jour l'entrée correspondante dans le cache. C'est particulièrement utile sur les fiches client, qui dépendent de nombreuses collections organisées en graphe (famille, élève, besoins, matières, cours, crédits, tuteurs, bilans, propositions…). Recharger tout le graphe après chaque modification serait trop coûteux. On pourrait faire ces mises à jour ciblées de l'état local sans cette librairie, mais en imposant un cadre, elle évite de produire du code fragile et difficile à maintenir.
 

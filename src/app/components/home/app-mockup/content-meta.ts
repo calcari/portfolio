@@ -75,13 +75,12 @@ export type TimelineItem = {
 // Côté gauche = formation/académique ; côté droit = pro/projets (1 colonne chacun).
 // L'alternance ISCOD apparaît en 2 cards (formation + pro) pointant vers la même page.
 // `start`/`end` sont des années mais désignent le milieu d'année (offset 6 mois) :
-// 2019–2020 = mi-2019 → mi-2020. Le DU2E renvoie vers l'article escola-gestation
-// (où il est décrit), faute d'article dédié.
+// 2019–2020 = mi-2019 → mi-2020.
 export const parcoursTimeline: TimelineItem[] = [
   {
     slug: "iut-mesure-pysiques",
     title: "IUT Mesures Physiques, Metz",
-    structure: "IUT de Metz · DUT Mesures Physiques",
+    structure: "Université de Lorraine",
     logo: "/images/experiences/logo-univ-lorraine.png",
     start: 2016,
     end: 2019,
@@ -89,8 +88,8 @@ export const parcoursTimeline: TimelineItem[] = [
     side: "left",
   },
   {
-    slug: "escola-gestation",
-    title: "DU2E — Étudiant-Entrepreneur",
+    slug: "du2e",
+    title: "DU2E, Étudiant-Entrepreneur",
     structure: "PEEL · Université de Lorraine",
     logo: "/images/experiences/logo-peel.png",
     start: 2019,
@@ -101,7 +100,7 @@ export const parcoursTimeline: TimelineItem[] = [
     side: "left",
   },
   {
-    slug: "pedagome-iscod",
+    slug: "iscod",
     title: "Mastère Expert en ingénierie logicielle",
     structure: "ISCOD · alternance",
     logo: "/images/experiences/logo-iscod-esiea.png",
@@ -124,8 +123,8 @@ export const parcoursTimeline: TimelineItem[] = [
   },
   {
     slug: "fetch",
-    title: "Coursier indépendant",
-    structure: "Fetch, Metz",
+    title: "L'envers d'une plateforme",
+    structure: "Coursier · Fetch, Metz",
     logo: "/images/experiences/logo-fetch.png",
     start: 2016,
     end: 2018,
@@ -158,7 +157,7 @@ export const parcoursTimeline: TimelineItem[] = [
     side: "right",
   },
   {
-    slug: "pedagome-iscod",
+    slug: "pedagome-apprentissage",
     title: "Développeur fullstack",
     structure: "Pedagome, Apprentissage, Metz",
     logo: "/images/experiences/logo-pedagome.png",

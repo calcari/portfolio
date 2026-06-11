@@ -6,7 +6,7 @@
 
 Pedagome est un organisme de cours particuliers à domicile situé à Metz. Pour suivre son activité, l’entreprise utilise Dopple, un système d’information interne qui centralise une partie du suivi commercial, administratif et opérationnel. Cet outil alimente aussi des parcours utilisés par des publics externes, comme les prospects, les clients ou les tuteurs.
 
-Pendant mon alternance à l’ISCOD, entre 2024 et 2026, Dopple avait dépassé le stade d’une application unique. Le SI regroupait plusieurs apps et services : dashboard interne, espace tuteurs, site vitrine et génération de PDF.
+Pendant mon alternance à l’[ISCOD](/parcours/iscod), entre 2024 et 2026, Dopple avait dépassé le stade d’une application unique. Le SI regroupait plusieurs apps et services : dashboard interne, espace tuteurs, site vitrine et génération de PDF.
 
 Ces briques vivaient dans plusieurs dépôts distincts, avec des gestionnaires de paquets, des versions et des configurations qui évoluaient séparément. Cela restait acceptable tant que l’usage était surtout interne. Les erreurs pouvaient gêner l’équipe administrative, mais elles restaient rattrapables dans une certaine mesure.
 
@@ -86,7 +86,7 @@ Il faut donc savoir faire des compromis. Par exemple, je n’ai pas ajouté un e
 
 ## Expériences rattachées à cette réalisation
 
-- [Pedagome, alternance](/parcours/pedagome-iscod)
+- [Pedagome, apprentissage](/parcours/pedagome-apprentissage)
 
 ## Compétences rattachées à cette réalisation
 

@@ -39,3 +39,7 @@ Cette compétence m’a aussi appris quelque chose d’utile pour l’ingénieri
 À moyen terme, l’objectif n’est pas de devenir comptable de métier, mais d’être encore plus crédible sur l’interface entre logiciel, comptabilité et conformité. Cette compétence peut être utile dans des contextes où les développeurs doivent interagir avec des flux comptables, des obligations déclaratives ou des outils financiers.
 
 La progression peut passer par la pratique, les échanges avec des professionnels du chiffre et la veille sur les évolutions réglementaires. Si cela devient pertinent dans mon parcours, une VAE de type « Collaborateur comptable » pourrait aussi crédibiliser davantage cet aspect de mon profil.
+
+## Réalisations rattachées à cette compétence
+
+- [API Tiers de prestations](/realisations/api-tiers-de-prestations)
