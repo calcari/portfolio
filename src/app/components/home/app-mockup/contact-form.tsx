@@ -11,6 +11,10 @@ import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { contactSchema } from "@/lib/contact-schema"
 import { sendContact } from "@/app/actions/contact"
+import {
+  ContactRecaptcha,
+  recaptchaSiteKey,
+} from "@/app/components/home/app-mockup/contact-recaptcha"
 
 function FieldError({ field }: { field: AnyFieldApi }) {
   if (!field.state.meta.isTouched || field.state.meta.errors.length === 0) {
@@ -38,6 +42,8 @@ function ContactSuccess() {
 
 export function ContactForm() {
   const [successCount, setSuccessCount] = useState(0)
+  const [captchaToken, setCaptchaToken] = useState<string | null>(null)
+  const [captchaResetKey, setCaptchaResetKey] = useState(0)
 
   const form = useForm({
     defaultValues: {
@@ -50,12 +56,21 @@ export function ContactForm() {
     },
     validators: { onChange: contactSchema },
     onSubmit: async ({ value }) => {
-      const result = await sendContact(value)
+      if (!captchaToken) {
+        toast.error("Veuillez cocher la case « Je ne suis pas un robot ».")
+        return
+      }
+
+      const result = await sendContact({ ...value, captchaToken })
       if (!result.ok) {
         toast.error(result.error)
+        setCaptchaToken(null)
+        setCaptchaResetKey((key) => key + 1)
         return
       }
       setSuccessCount((count) => count + 1)
+      setCaptchaToken(null)
+      setCaptchaResetKey((key) => key + 1)
       form.reset()
     },
   })
@@ -182,9 +197,15 @@ export function ContactForm() {
         )}
       </form.Field>
 
+      <ContactRecaptcha resetKey={captchaResetKey} onChange={setCaptchaToken} />
+
       <form.Subscribe selector={(state) => [state.canSubmit, state.isSubmitting]}>
         {([canSubmit, isSubmitting]) => (
-          <Button type="submit" disabled={!canSubmit} className="w-fit">
+          <Button
+            type="submit"
+            disabled={!canSubmit || !captchaToken || !recaptchaSiteKey}
+            className="w-fit"
+          >
             {isSubmitting ? "Envoi…" : "Envoyer"}
           </Button>
         )}

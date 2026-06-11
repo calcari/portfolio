@@ -20,4 +20,9 @@ export const contactSchema = z.object({
   remarque: z.string().trim(),
 })
 
+export const contactSubmitSchema = contactSchema.extend({
+  captchaToken: z.string().min(1, "Captcha requis"),
+})
+
 export type ContactInput = z.infer<typeof contactSchema>
+export type ContactSubmitInput = z.infer<typeof contactSubmitSchema>

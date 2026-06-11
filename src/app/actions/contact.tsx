@@ -2,7 +2,12 @@
 
 import { Resend, type ErrorResponse } from "resend"
 
-import { contactSchema, type ContactInput } from "@/lib/contact-schema"
+import {
+  contactSubmitSchema,
+  type ContactInput,
+  type ContactSubmitInput,
+} from "@/lib/contact-schema"
+import { verifyRecaptchaToken } from "@/lib/recaptcha"
 import { PortfolioContactConfirmationEmail } from "@/emails/portfolio-contact-confirmation"
 import { PortfolioContactEmail } from "@/emails/portfolio-contact"
 
@@ -69,10 +74,20 @@ function publicSendError(step: SendStep, error: ErrorResponse) {
 
 export type ContactResult = { ok: true } | { ok: false; error: string }
 
-export async function sendContact(input: ContactInput): Promise<ContactResult> {
-  const parsed = contactSchema.safeParse(input)
+export async function sendContact(
+  input: ContactSubmitInput
+): Promise<ContactResult> {
+  const parsed = contactSubmitSchema.safeParse(input)
   if (!parsed.success) {
     return { ok: false, error: "Le formulaire contient des erreurs." }
+  }
+
+  const captchaOk = await verifyRecaptchaToken(parsed.data.captchaToken)
+  if (!captchaOk) {
+    return {
+      ok: false,
+      error: "Vérification anti-robot échouée, réessayez.",
+    }
   }
 
   const apiKey = process.env.RESEND_API_KEY
@@ -80,7 +95,7 @@ export async function sendContact(input: ContactInput): Promise<ContactResult> {
     return { ok: false, error: "Service d'envoi non configuré." }
   }
 
-  const data = parsed.data
+  const { captchaToken: _captchaToken, ...data } = parsed.data
   const resend = new Resend(apiKey)
   const from = contactFrom()
   const to = contactTo()
