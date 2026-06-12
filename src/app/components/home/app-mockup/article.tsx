@@ -22,7 +22,7 @@ export async function Article({
         [&_ul]:list-disc [&_ul]:space-y-1 [&_ul]:pl-5 [&_ul]:text-sm [&_ul]:text-muted-foreground
         [&_li]:marker:text-muted-foreground
         [&_strong]:font-medium [&_strong]:text-primary
-        [&_a]:underline-offset-4 [&_a]:hover:underline [&_a]:hover:text-foreground
+        [&_a]:underline-offset-4 [&_a]:underline [&_a]:hover:text-foreground
         [&_img]:my-2 [&_img]:max-w-full [&_img]:rounded-lg"
     >
       {logos && logos.length > 0 && (
