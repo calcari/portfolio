@@ -8,7 +8,7 @@ La priorisation ne peut donc pas se limiter à des catégories comme basse, moye
 
 ## Mes éléments de preuve
 
-### Anecdote : la priorisation des évolutions de Dopple chez Pedagome
+### La priorisation des évolutions de Dopple chez Pedagome
 
 Chez Pedagome, ce travail s’est surtout joué autour de Dopple, le SI interne utilisé pour suivre les cours, les familles, les tuteurs et une partie des contraintes administratives. Comme l’outil évoluait en continu, mon rôle ne se limitait pas au développement : il fallait aussi organiser les demandes, arbitrer et maintenir une trajectoire cohérente.
 

@@ -10,7 +10,7 @@ Mais ça ne consiste pas à appliquer machinalement des règles comme "une fonct
 
 ## Mes éléments de preuve
 
-### Anecdote : Ce que j'ai appris à mes dépens
+### Ce que j'ai appris à mes dépens
 
 Pendant [ma période autodidacte](/parcours/pedagome-autodidacte), avant mon entrée en formation, j'ai développé les premières versions d'un SI interne pour une entreprise de cours particuliers, en JavaScript pur, avec peu de structure et des fonctions trop longues qui faisaient trop de choses. Tout fonctionnait en surface, mais le moindre changement pouvait casser quelque chose d'autre.
 
@@ -20,7 +20,7 @@ Avec le temps, j’ai compris pourquoi il fallait structurer plus tôt, typer da
 
 Lien vers l’expérience : [Pedagome, temps plein, développeur autodidacte](/parcours/pedagome-autodidacte)
 
-### Anecdote : TypeScript et les champs null
+### TypeScript et les champs null
 
 Dans le SI de gestion de cours particuliers de Pedagome, de nombreux champs sont null par nature : un tuteur nouvellement créé n'a pas encore de coordonnées bancaires, un élève peut ne pas avoir de numéro de téléphone renseigné. Ce sont des états valides, pas des anomalies.
 

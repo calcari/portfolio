@@ -10,7 +10,7 @@ Ce sujet devient encore plus concret avec la réforme de la facturation électro
 
 ## Mes éléments de preuve
 
-### Anecdote 1 : Structurer des flux comptables exploitables
+### Construire un système de comptabilité
 
 Dans le cadre de mon travail chez Pedagome, j’ai dû prendre en charge une partie de la comptabilité courante liée au fonctionnement de l’entreprise, tout en mettant en place les outils nécessaires pour en assurer la fiabilité. Cela m’a amené à travailler sur les soldes clients et sur la production d’exports comptables. Cela supposait de gérer un système complet de crédits et débits, avec plusieurs variations possibles selon les situations : factures, règlements, écritures manuelles, ajustements ou autres mouvements ayant un impact sur la situation d’un client.
 
@@ -18,7 +18,7 @@ L’enjeu principal était d’éviter les écarts entre les données métier et
 
 Le résultat attendu était de produire des sorties réellement exploitables, avec une logique compréhensible par le comptable lors de la validation annuelle.
 
-### Anecdote 2 : Gérer la paie et les obligations déclaratives
+### Module de paie des tuteurs
 
 J’ai aussi dû intervenir sur la génération des bulletins de paie, le calcul de cotisations et la production de fichiers déclaratifs de type DSN (fichiers structurés en blocs et rubriques). Il s’agissait du contexte assez spécifique des services à la personne en mode mandataire : les tuteurs étaient salariés des familles, et l’entreprise intervenait comme intermédiaire entre les deux, notamment pour certaines déclarations effectuées pour le compte des clients.
 

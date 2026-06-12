@@ -8,7 +8,7 @@ Cette idée rejoint des référentiels de qualité logicielle comme l’[ISO/IEC
 
 ## Mes éléments de preuve
 
-### Anecdote : la refonte du site internet de Pedagome
+### La refonte du site internet de Pedagome
 
 Un exemple important pour moi est la refonte du site internet de Pedagome. Sur la première version du projet, en 2024, une graphiste avait réalisé des maquettes, puis nous avons cherché à les intégrer avec [Builder.io](http://Builder.io). J’avais un rôle assez large dans ce projet : choix de la solution technique, encadrement d’un alternant, développement direct, arbitrages avec la graphiste et la communication, validation finale, puis maintenance du site.
 

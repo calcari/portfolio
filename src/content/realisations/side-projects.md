@@ -6,7 +6,7 @@
 
 Parmi mes projets personnels, deux dépassent le simple exercice technique : un **gestionnaire de compositions d’équipes d’échecs** et un **outil de planification de vacances en groupe**. Ils n’ont pas le même niveau de maturité. Le gestionnaire de vacances est utilisé chaque année par un groupe d’une dizaine d’amis, tandis que le projet d’échecs est déjà bien avancé, mais pas encore finalisé.
 
-Dans les deux cas, je ne voulais pas seulement valider une idée technique. Le gestionnaire de vacances devait servir à un usage pratique réel, et Chess Manager devait pouvoir être utilisé par des clubs. Cette contrainte impose de traiter des sujets souvent absents d’un prototype : parcours secondaires, erreurs compréhensibles, installation, retours utilisateurs, notifications, tests ou support.
+Dans les deux cas, je ne voulais pas seulement valider une idée technique. Le gestionnaire de vacances devait servir à un usage pratique réel, et Compo Assistant devait pouvoir être utilisé par des clubs. Cette contrainte impose de traiter des sujets souvent absents d’un prototype : parcours secondaires, erreurs compréhensibles, installation, retours utilisateurs, notifications, tests ou support.
 
 ## Planifier des vacances en groupe
 
@@ -16,9 +16,9 @@ Le deuxième problème concerne le choix de la destination et du logement. Chaqu
 
 J’ai développé ce projet avec React et TypeScript, avec une communication en temps réel via WebSockets. Pour le stockage, j’ai utilisé Airtable comme pseudo-backend. Ce choix n’est pas adapté à tous les projets, mais il était cohérent ici : le besoin était limité, les données peu sensibles, et il fallait livrer rapidement un outil utilisable. J’ai ainsi expérimenté des outils low-code que l’on retrouve souvent en entreprise, tout en constatant leurs limites dès que le modèle de données ou les règles métier se complexifient.
 
-## Construire Chess Manager
+## Compo assistant
 
-Chess Manager vise un niveau de finition plus élevé. Il aide des clubs à composer leurs équipes pour les championnats, en tenant compte des règles de la Fédération française des échecs. Le périmètre comprend les comptes, les joueurs, les équipes, les classements, les contraintes de composition et les règles propres aux compétitions.
+Compo Assistant vise un niveau de finition plus élevé. Il aide des clubs à composer leurs équipes pour les championnats, en tenant compte des règles de la Fédération française des échecs. Le périmètre comprend les comptes, les joueurs, les équipes, les classements, les contraintes de composition et les règles propres aux compétitions.
 
 J’ai travaillé le besoin avec un président de club, afin de transformer les règles métier en comportements exploitables par l’application. Le projet intègre déjà plusieurs briques importantes : création de comptes, saisie des équipes et récupération du classement ELO des joueurs auprès de la FFE. Le classement conditionne une partie des décisions de composition.
 
@@ -39,7 +39,7 @@ Dès qu’un outil vise à être utilisé par des tiers, ces sujets deviennent a
 
 ## Les interactions qui ont compté
 
-Sur Chess Manager, l’échange avec le président du club a été déterminant. Je pouvais comprendre la logique générale du besoin, mais pas inventer les contraintes exactes d’un championnat d’échecs. Ces échanges ont permis de valider les règles à prendre en compte et d’éviter une application techniquement correcte mais déconnectée du terrain.
+Sur Compo Assistant, l’échange avec le président du club a été déterminant. Je pouvais comprendre la logique générale du besoin, mais pas inventer les contraintes exactes d’un championnat d’échecs. Ces échanges ont permis de valider les règles à prendre en compte et d’éviter une application techniquement correcte mais déconnectée du terrain.
 
 Pour le gestionnaire de vacances, les interactions ont été moins formalisées, mais l’usage réel a joué le même rôle. J’ai notamment débogué avec un ami un problème lié à son téléphone trop ancien pour exécuter certaines fonctionnalités JavaScript, ce qui m’a amené à vérifier plus systématiquement le support navigateur avec des outils comme [caniuse.com](http://caniuse.com).
 
@@ -47,7 +47,7 @@ Pour le gestionnaire de vacances, les interactions ont été moins formalisées,
 
 Le gestionnaire de vacances est toujours utilisé chaque année. Il remplit son rôle principal : réduire les échanges dispersés et rendre les décisions de groupe plus lisibles.
 
-Chess Manager est encore en développement, mais il a déjà dépassé le stade de la maquette. La suite consiste à stabiliser les parcours, finaliser les règles métier et préparer un usage bêta par des clubs volontaires.
+Compo Assistant est encore en développement, mais il a déjà dépassé le stade de la maquette. La suite consiste à stabiliser les parcours, finaliser les règles métier et préparer un usage bêta par des clubs volontaires.
 
 ## Ce que je retiens
 

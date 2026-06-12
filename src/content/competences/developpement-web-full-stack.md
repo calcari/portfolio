@@ -14,7 +14,7 @@ Il y a une certaine ironie dans l'évolution récente de cet écosystème. Les S
 
 ## Mes éléments de preuve
 
-### Anecdote : L'espace en ligne pour les tuteurs
+### L'espace en ligne pour les tuteurs
 
 La coordination entre l'équipe commerciale et les tuteurs reposait encore sur des mails et des Google Forms. Quand un élève était disponible, le commercial contactait les tuteurs un par un pour savoir qui était intéressé. Les tuteurs déclaraient ensuite leurs heures sur un formulaire en ligne, sans aucun lien avec le reste du SI.
 

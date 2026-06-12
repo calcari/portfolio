@@ -14,7 +14,7 @@ Un pipeline `CI/CD` fait donc partie de la chaîne de confiance du projet. Les c
 
 ## Mes éléments de preuve
 
-### Anecdote 1 : Structurer un environnement reproductible et vérifiable
+### Transition vers un monorepo
 
 Pendant [mon mastère à l’ISCOD](/parcours/iscod), j’ai restructuré l’environnement de `Dopple`, le SI interne de Pedagome, autour d’un monorepo `pnpm / Nx`. Le projet regroupait plusieurs applications et services qui avaient commencé à évoluer séparément : dépendances différentes, code utilitaire dupliqué, contrats entre frontend et backend moins faciles à suivre, déploiements à coordonner dans plusieurs dépôts.
 
@@ -22,7 +22,7 @@ Le travail n’a pas seulement consisté à déplacer du code. Il fallait rendre
 
 Le résultat est un environnement plus lisible et plus vérifiable. Les builds les plus lourds sont passés d’environ une heure à des cycles plutôt situés autour de dix à vingt minutes selon les changements. Les correctifs peuvent être livrés plus vite, tout en gardant des contrôles sur les parcours publics comme les inscriptions ou les candidatures.
 
-### Anecdote 2 : Sécuriser la chaîne de livraison
+### Fiabiliser les déploiements
 
 J’ai aussi travaillé sur la sécurité de l’environnement de développement et de déploiement. Les secrets nécessaires aux pipelines ne sont pas écrits dans le code ni dans les fichiers de configuration versionnés. Ils sont configurés dans `GitLab` sous forme de variables `CI/CD` privées, afin de limiter leur exposition et de les gérer séparément du dépôt.
 

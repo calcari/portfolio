@@ -20,7 +20,7 @@ Il faut être prudent avec ce type de corrections. Elles peuvent fonctionner sur
 
 ## Les bugs que j'ai investigués
 
-### MikroORM : un diff de migrations qui boucle sur le driver MySQL
+### MikroORM : une génération des scripts de migration erronée
 
 Le scénario de découverte était simple. Après avoir généré des migrations puis les avoir exécutées, je régénérais une nouvelle migration sans avoir modifié la moindre entité. L'outil aurait dû ne détecter aucun changement. Au lieu de ça, il continuait à proposer des modifications en boucle, à chaque génération.
 

@@ -10,7 +10,7 @@ Pour moi, bien communiquer ne veut pas dire tout expliquer ou imposer sa vision.
 
 ## Mes éléments de preuve
 
-### Anecdote 1 : Rendre compréhensible un dispositif administratif
+### Rendre compréhensible un dispositif administratif
 
 Lors de l’intégration de l’avance immédiate de crédit d’impôt, l’URSSAF demandait à Pedagome de prouver l’existence d’un support pédagogique destiné aux familles. Il fallait expliquer le rôle de l’URSSAF, le reste à charge client et les étapes d’inscription sans décourager les familles.
 
@@ -18,7 +18,7 @@ J’ai collaboré avec la graphiste de l’entreprise pour produire une plaquett
 
 Lien vers la réalisation : [API Tiers de prestations](/realisations/api-tiers-de-prestations)
 
-### Anecdote 2 : Faire accepter une correction dans un projet open source
+### Faire accepter une correction dans un projet open source
 
 Dans mes contributions open source, proposer du code ne suffit pas. Il ne serait pas compris par les maintainers, pas considéré fiable, et jamais intégré au projet. Pour éviter un rejet, il faut décrire le bug en anglais, montrer comment le reproduire, isoler le cas concerné et justifier le comportement attendu. J’ai donc rédigé des issues, préparé des exemples reproductibles et échangé avec des mainteneurs qui ne connaissaient pas mon contexte.
 
@@ -26,7 +26,7 @@ Mes contributions ont pu être discutées puis acceptées parce que le problème
 
 Lien vers la réalisation : [Contributions open source](/realisations/contributions-open-source)
 
-### Anecdote 3 : Accompagner un profil moins expérimenté sur une base de code existante
+### Accompagner un profil moins expérimenté
 
 J’ai développé cette compétence en accompagnant un profil moins expérimenté sur une base de code existante. Je devais lui expliquer comment le projet était organisé, pourquoi certaines conventions existaient, et comment éviter des erreurs d’intégration. Cela m’a obligé à rendre plus explicites des raisonnements que je gardais parfois pour moi. L’accompagnement est devenu plus fluide et moins dépendant d’aller-retours permanents. Outre le gain de temps, ça m'a permis de faire évoluer ma posture managériale.
 

@@ -8,7 +8,7 @@ L’autoformation devient d’autant plus importante que la connaissance techniq
 
 ## Mes éléments de preuve
 
-### Anecdote : Me former seul au développement web avant l’ISCOD
+### Me former seul au développement web avant l’ISCOD
 
 Entre 2020 et 2023, je me suis formé seul au développement web avant mon entrée en formation à l’ISCOD. Je suis parti de sujets assez disparates comme VBA et SQL, puis j’ai progressivement élargi vers HTML, CSS, JavaScript, React et Node. Je n’ai pas appris cela de manière linéaire ou scolaire. Ma méthode consistait d’abord à faire un balayage d’ensemble pour comprendre le périmètre d’un sujet, repérer les notions centrales et éviter de me perdre dans des détails trop tôt. Ensuite, je passais par des expérimentations ciblées, dans un but avant tout pédagogique, pour vérifier ce que j’avais réellement compris avant d’essayer de m’en servir dans un besoin concret.
 

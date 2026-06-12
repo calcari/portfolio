@@ -8,19 +8,19 @@ Cette compétence me paraît d’autant plus actuelle avec la place croissante d
 
 ## Mes éléments de preuve
 
-### Anecdote 1 : faire apparaître la complexité cachée d’un système de parrainage
+### Faire apparaître la complexité cachée d’un système de parrainage
 
 Sur un système de parrainage, le besoin peut sembler simple au départ : ajouter un champ dans un formulaire ou stocker un code parrain. En réalité, il faut prévoir le suivi interne, l’information donnée au parrain, la gestion des doublons, le rattachement d’une prime à un paiement réel, la durée de conservation des coordonnées, ou encore les cas où la personne transmise existe déjà dans la base.
 
 La faisabilité technique ne suffit pas. Je passe souvent par des schémas ou des maquettes simples, afin que les parties prenantes puissent se projeter avant le développement. Cette clarification permet ensuite de découper la fonctionnalité en étapes plus réalistes.
 
-### Anecdote 2 : modéliser le suivi des familles sans trahir le fonctionnement réel
+### Modéliser le suivi des familles et des cours
 
 Chez Pedagome, le suivi des parcours devait rester fidèle au terrain. Une modélisation trop rapide aurait consisté à assimiler un client à un élève, puis à rattacher simplement un tuteur à cette fiche. Une famille peut avoir plusieurs enfants, un élève peut avoir plusieurs besoins dans le temps, un tuteur peut changer, et certaines décisions doivent rester compréhensibles plusieurs mois plus tard.
 
 Avant de choisir les tables et les relations, il fallait comprendre ce que l’équipe suivait réellement : des familles, des membres, des besoins pédagogiques, des attributions, des changements, des suspensions ou des reprises. La modélisation des données devenait alors plus cohérente, avec moins d’exceptions à bricoler ensuite dans l’interface ou dans le code.
 
-### Anecdote 3 : ne pas ajouter une donnée uniquement parce qu’elle est demandée
+### Éviter l'ajout d'un champ inutile
 
 Les demandes d’ajout de champs dans une fiche posent souvent ce type de problème. Ajouter des informations comme “a eu le brevet” ou “a eu le bac” peut sembler rapide. La difficulté n’est pourtant pas l’ajout technique, mais la cohérence du système. Si cette information peut déjà être déduite de la scolarité, la stocker séparément crée deux sources de vérité.
 
